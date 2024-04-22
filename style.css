@@ -1,0 +1,169 @@
+*
+{
+    margin              : 0         ;
+    font-family         : arial     ;
+    color               :rgb(255,215,0)    ;
+    background-color: #88888800;
+    
+}
+
+div#menu 
+{
+    background-color    : rgba(175, 101, 83, 0)    ;
+    padding             : 8px 0     ;
+    text-align          : center    ;
+    color               :rgb(255,215,0); 
+    font-weight         : bold;
+}
+
+
+
+
+div#menu a
+{
+    color               : rgb(255,215,0)        ;
+    text-decoration     : none          ;
+    display             : inline-block  ;
+    margin: 10px;
+    text-align: center;
+}
+#login
+{
+  
+  background-color: rgba(255, 103, 2, 0);
+  margin-top       :-8px          ;
+  padding          : 8px          ;
+  float            : right        ;
+  width            : 200px        ;
+  
+}
+#profil
+{
+  
+  background-color: rgba(255, 103, 2, 0);
+  margin-top       :-8px          ;
+  padding          : 8px          ;
+  float            : right        ;
+  width            : 200px        ;
+  text-align       : center       ;
+}
+
+div#menu a:hover 
+{
+    color               :rgb(255,215,0)           ;
+}
+
+div#tartalom    
+{
+    margin              : 12px 36px         ;
+}
+div.doboz
+{
+    border-radius: 6px              ;
+    background-color: #eeeeee00;
+    padding: 12px 24px      ;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+div.doboz h2
+{
+    margin: 8px 0px;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: rgba(104, 46, 31, 0);
+    color: rgb(255,215,0);
+    padding: 6px;
+    font-size: 16px;
+    font-family: arial;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:rgba(82, 40, 30, 0.384);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(38, 0, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:  rgba(175, 101, 83, 0);
+  }
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color:  rgba(78, 24, 10, 0);
+
+}
+.kezdo{
+  font-size: large;
+  font-family: Arial;
+}
+body {
+  background-image:url(szakdogahatter-transformed.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: color-burn;
+}
+.Vendegkonyv{
+  background-color: #88888800;
+}
+
+#admin {
+  
+  background-color: rgba(255, 103, 2, 0);
+  margin-top       :-4px          ;
+  padding          : 4px          ;
+  float            : left       ;
+  width            : 200px        ;
+  text-align       : center       ;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255, 235, 205, 0);
+  color : rgb(255,215,0)
+}
+
+table, th, td {
+  border      : 1px solid black ;
+  padding     : 10px;
+}
+th {
+  background-color: #6f1cff00;
+  color: rgb(255,215,0);
+}
+tr {
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+}
+tr:nth-child(even) {
+  background-color  : #d6eeee00;
+}  
